@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    .c1{
+        color:blue;
+    }
+    .c2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+    }
+    .header-div{
+         background-color:#c0c0c0; 
+         padding: 20px;
+    }
+    .footer-div{
+       
+        border-top:2px solid blue;
+       border-bottom:2px solid blue;
+       padding:10px;
+        background-color:#c0c0c0; 
+    }
+    .list{
+        list-style-type: none;
+    }
+    .container{
+        width:600px;
+        margin:0 auto;
+       
+    }
+    
+    .text{
+        text-decoration: none;
+    }
+    .Flexbox{
+                display: flex;
+                
+                gap:20px
+    }
+    .sub{
+           position:relative;
+
+    }
+   
+    .top{
+        right:170px;
+        position:absolute;
+        background-color: yellow;
+       top: -30px;
+       padding:2px;
+        
+    }
+    .button{
+        bottom:0;
+        right:10px;
+        position:fixed;
+    }
+   </style>
+    <title>Code magazine</title>
+</head>
+<body >
+    <div  class="container">
+    <div class="header-div">
+    <h1 class="c2 c1">📘 The Code Magazine</h1>
+    <div class="Flexbox"> 
+   <a href="blog.html" class="text">Blog</a>
+   <a href="blog.html"  class="text">Challenges</a>
+   <a href="blog.html"  class="text">Flexbox</a>
+   <a href="blog.html"  class="text">CSS Grid</a>
+   </div>
+    </div>
+    <div class="sub">
+   <h2 class="c1  ">The Basic Language of Web:HTML </h2>
+   <h2 class="top">TOP</h2>
+    </div>
+   <img src="image2.jpg">
+   <p class="c2"> Posted by <b> Laura Jones</b> on Monday, June 21st 2027</p>
+    <img src="image1.jpg" width="90%"  height="40%">
+    <p>All modern websites and web applications are built using three fundamental technologies: HTML, CSS and JavaScript. These are the languages of the web.</p>
+    <h3 class="c1">What is HTML?</h3>
+    <p>HTML stands for <b>H</b>yper<b>T</b>ext<b>M</b>arkup <b>L</b>anguage. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).</p>
+    <p>HTML stands for HyperText Markup Language. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).</p>
+    <p>In HTML, each element is made up of 3 parts:</p>
+    <ol>
+        <li><b>The opening tag</b></li>
+        <li>The closing tag</li>
+        <li>The actual element</li>
+        
+    </ol>
+   <p>You can learn more at the <a href="mdm.html"> MDN Web Docs.</a></p>
+   <h3 class="c1">Why should you learn HTML?</h3>
+   <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:</p>
+   <ul>
+    <li><b>To be able to use the fundamental web dev language</b></li>
+    <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
+    <li>To build web applications</li>
+    <li>To impress friends</li>
+    <li class="c2">To have fun 😃</li>
+   </ul>
+<div class="footer-div">
+<h3 style="text-align:center;"><b>Related posts</b></h3>
+<ul class="list">
+<li ><img src="image3.jpg" width="10%" height="10%">
+<h4 class="c1" style="display: inline">How to learn Web Development</h4></li>
+<span>By Jonas Schemedtman</span>
+
+
+<li><img src="image4.jpg"  width="10%" height="10%" >
+<h4 class="c1" style="display: inline-block;"  >The unknown power of css</h4></li>
+<span>By Matilda</span>
+
+<li><img src="image5.jpg"  width="10%" height="10%">
+<h4  class="c1" style="display: inline-block;"  >why javascript is awesome</h4></li>
+<span>By Jim Dillon</span>
+</div>
+</div>
+<button class="button">Like❤️</button>
+</body>
+</html>
